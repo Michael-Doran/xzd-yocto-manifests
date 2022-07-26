@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="xilinx"  fetch="git://github.com/xilinx"/>
-  <remote name="dw"      fetch="git://github.com/dornerworks"
-  <remote name="md"      fetch="git://github.com/Michael-Doran">
+  <remote name="xilinx"  fetch="https://github.com/xilinx"/>
+  <remote name="dw"      fetch="https://github.com/dornerworks"/>
+  <remote name="md"      fetch="https://github.com/Michael-Doran"/>
 
   <default sync-j="4"/>
 
