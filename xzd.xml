@@ -18,7 +18,6 @@
   <project name="meta-qt5" path="yocto_2021.1/sources/meta-qt5" remote="xilinx" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0" upstream="rel-v2021.1"/>
   <project name="meta-security" path="yocto_2021.1/sources/meta-security" remote="xilinx" revision="3daf99fd138b0eebe864bbe1b9c71241d97c4512" upstream="rel-v2021.1"/>
   <project name="meta-som" path="yocto_2021.1/sources/meta-som" remote="xilinx" revision="9abfe2665c62702b49177e7da392f8cb4201a6fc" upstream="rel-v2021.1"/>
-  <project name="meta-virtualization" path="yocto_2021.1/sources/meta-virtualization" remote="dornerworks" revision="dornerworks"/>
   <project name="meta-vitis-ai" path="yocto_2021.1/sources/meta-vitis-ai" remote="xilinx" revision="0863204904b58d80a6403d3eee64a2554d273bfe" upstream="rel-v2021.1"/>
   <project name="meta-xilinx" path="yocto_2021.1/sources/meta-xilinx" remote="xilinx" revision="d733a5689eff85d33993bda1d8d0fc04aabc31f7" upstream="rel-v2021.1"/>
   <project name="meta-xilinx-tools" path="yocto_2021.1/sources/meta-xilinx-tools" remote="xilinx" revision="9050e2c23921e199c7a3c76deb95d09383a3d6be" upstream="rel-v2021.1"/>
