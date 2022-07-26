@@ -6,21 +6,29 @@
 
   <default sync-j="4"/>
 
+  <project name="meta-browser" path="yocto_2021.1/sources/meta-browser" remote="xilinx" revision="1bff166b36072a8cacc0f29f02de5fa9748824e9" upstream="rel-v2021.1"/>
+  <project name="meta-clang" path="yocto_2021.1/sources/meta-clang" remote="xilinx" revision="fbb032bfc535e0ed3127c171d4236a97d51c16df" upstream="rel-v2021.1"/>
+  <project name="meta-jupyter" path="yocto_2021.1/sources/meta-jupyter" remote="xilinx" revision="4e2d30a3d67598ffa999e3e43613f81e1d35882c" upstream="rel-v2021.1"/>
+  <project name="meta-linaro" path="yocto_2021.1/sources/meta-linaro" remote="xilinx" revision="11091b487e1ad4c6a4adfac34d958a3d9d9ccd17" upstream="rel-v2021.1"/>
+  <project name="meta-mingw" path="yocto_2021.1/sources/meta-mingw" remote="xilinx" revision="352d8b0aa3c7bbd5060a4cc2ebe7c0e964de4879" upstream="rel-v2021.1"/>
+  <project name="meta-openamp" path="yocto_2021.1/sources/meta-openamp" remote="xilinx" revision="bb519f0a01a0f44be47ff6d1e31674e3445b61a3" upstream="rel-v2021.1"/>
+  <project name="meta-openembedded" path="yocto_2021.1/sources/meta-openembedded" remote="xilinx" revision="29ca52c7826ad3044b53ccb5224016bd73abdb5c" upstream="rel-v2021.1"/>
+  <project name="meta-petalinux" path="yocto_2021.1/sources/meta-petalinux" remote="xilinx" revision="7bae86971c43102c783b5519f6d21f4b6b57c0a4" upstream="rel-v2021.1"/>
+  <project name="meta-python2" path="yocto_2021.1/sources/meta-python2" remote="xilinx" revision="d9662a41f67c3425a356bce4ec29f82058127344" upstream="rel-v2021.1"/>
+  <project name="meta-qt5" path="yocto_2021.1/sources/meta-qt5" remote="xilinx" revision="2b33a5d5e888370bb56685b86aa82b73624f19f0" upstream="rel-v2021.1"/>
+  <project name="meta-security" path="yocto_2021.1/sources/meta-security" remote="xilinx" revision="3daf99fd138b0eebe864bbe1b9c71241d97c4512" upstream="rel-v2021.1"/>
+  <project name="meta-som" path="yocto_2021.1/sources/meta-som" remote="xilinx" revision="9abfe2665c62702b49177e7da392f8cb4201a6fc" upstream="rel-v2021.1"/>
+  <project name="meta-virtualization" path="yocto_2021.1/sources/meta-virtualization" remote="dornerworks" revision="dornerworks"/>
+  <project name="meta-vitis-ai" path="yocto_2021.1/sources/meta-vitis-ai" remote="xilinx" revision="0863204904b58d80a6403d3eee64a2554d273bfe" upstream="rel-v2021.1"/>
+  <project name="meta-xilinx" path="yocto_2021.1/sources/meta-xilinx" remote="xilinx" revision="d733a5689eff85d33993bda1d8d0fc04aabc31f7" upstream="rel-v2021.1"/>
+  <project name="meta-xilinx-tools" path="yocto_2021.1/sources/meta-xilinx-tools" remote="xilinx" revision="9050e2c23921e199c7a3c76deb95d09383a3d6be" upstream="rel-v2021.1"/>
+  <project name="poky" path="yocto_2021.1/sources/core" remote="xilinx" revision="1a07bce883aa05bb2fcf412384c671ace7a6e23f" upstream="rel-v2021.1"/>
+  <project name="yocto-manifests" path="yocto_2021.1/sources/manifest" remote="xilinx" revision="rel-v2021.1"/>
+  <project name="yocto-scripts" path="yocto_2021.1/sources/yocto-scripts" remote="xilinx" revision="d91204ec73178637debfbe8568c83d7281ea2ccf" upstream="rel-v2021.1">
+    <copyfile dest="yocto_2021.1/setupsdk" src="setupsdk"/>
+  </project>
+
   <project remote="dw"      revision="XZD_20190808"     name="xzd-yocto-scripts"        path="."/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="yocto-manifests"          path="sources/manifest"/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-xilinx"              path="sources/meta-xilinx"/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-xilinx-tools"        path="sources/meta-xilinx-tools"/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-petalinux"           path="sources/meta-petalinux"/>
-
-  <project remote="xilinx"  revision="rel-v2021.1"      name="poky"                     path="sources/core"/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-mingw"               path="sources/meta-mingw"/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-openamp"             path="sources/meta-openamp"/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-browser"             path="sources/meta-browser"/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-openembedded"        path="sources/meta-openembedded"/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-qt5"                 path="sources/meta-qt5"/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-linaro"              path="sources/meta-linaro"/>
-  <project remote="xilinx"  revision="rel-v2021.1"      name="meta-virtualization"      path="sources/meta-virtualization"/>
-
   <project remote="dw"      revision="XZD_20190808"     name="meta-xzd"                 path="sources/meta-xzd"/>
   <project remote="md"      revision="XZD_20210725"     name="meta-md"                  path="sources/meta-md"/>
 </manifest>
